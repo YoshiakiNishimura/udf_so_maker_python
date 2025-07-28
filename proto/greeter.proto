@@ -7,6 +7,7 @@ import "complex_types.proto";
 
 service Greeter {
   rpc SayHello (StringValue) returns (StringValue);
+  rpc Add (Int32Value) returns (Int32Value);
 }
 service Byer {
   rpc SayWorld (StringValue) returns (StringValue);
